@@ -1,0 +1,4 @@
+sft-1
+sitting-2
+standing-3
+walking-4

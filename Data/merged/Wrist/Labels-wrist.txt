@@ -1,0 +1,6 @@
+wrist lables
+Nailbiting-1
+Smonk-2
+Eat-3
+Nothing-4
+Still-5
