@@ -1,7 +1,9 @@
 # HAR
-#FYP Fall 2018:
-#HUMAN ACTIVITY RECOGNITION
+FYP Fall 2018:
+HUMAN ACTIVITY RECOGNITION
 Track-O-Matic
+
+A webapp that gives a detailed summary of all of your current and past bad habits. 
 
 ***
 
