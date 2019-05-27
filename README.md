@@ -15,6 +15,24 @@ We used two smarts phones for this purpose. The sensors of the smartphone such a
 
 ***
 
+# User Manual
+
+1. Install PhonePi App through Play Store. 
+    PhonePi allows you to stream real-time data from sensors on your phone. The sensors that we used were accelerometer, gyroscope and      magnetometer.
+    
+2. The URL in the app needs to be entered in the format:    
+        ip_address_of_Raspi:5000
+       
+    Enter update time for the required sensors that is the duration after which the data must be re-read and hit the switch. To disable,  simply turn the switch off.
+    
+3. To get the IP use ipconfig command on cmd. Make sure the phone and PC are on the same network.
+
+4. Install Python 3 from Python's official website prefably on Windows 7 on which this project was implemented. 
+
+5. Download our code and run it!
+
+***
+
 # INSPIRATION
 
 This idea was inspired by the Samsung Health app which records numerous activities for a person using the smartphones various sensors. However, the Samsung Health App fails to identify activities on its own. It does activity recognition of walking, but activities like how many glasses of water a user drank and the food activities need to be recorded manually. It also guesses that a person is sleeping if the phone is not being used at night but that too asks for confirmation in the morning if they were actually asleep.
