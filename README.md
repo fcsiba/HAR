@@ -39,9 +39,21 @@ This idea was inspired by the Samsung Health app which records numerous activiti
 
 ***
 
+# Hardware / Software details
+
+The hardware used in this project are sensors of Samsung S8+ and Samsung S5. The sensors used were accelerometer, gyroscope, magnetometer. Accelerometers are devices that measure acceleration, which is the rate of change of the velocity of an object. They measure in meters per second squared (m/s2) or in G-forces (g). Magnetometers are devices that measure magnetic fields. A magnetometer is an instrument with a sensor that measures magnetic flux density B (in units of Tesla or as/ m2). Magnetometers refer to sensors used for sensing magnetic fields OR to systems which measure magnetic field using one or more sensors. Gyroscopes, or gyros, are devices that measure or maintain rotational motion. MEMS (microelectromechanical system) gyros are small, inexpensive sensors that measure angular velocity. The units of angular velocity are measured in degrees per second (°/s) or revolutions per second (RPS). Angular velocity is simply a measurement of speed of rotation.
+
+Some sensors were bought from Spark Fun which were Spark Fun 9DOF Razor IMU MO, Lithium Ion Battery-400mAH, 10 DOF Mems IMU Sensor, Qwiic IMU - MPU-9250. We planned to use them fully however we could not do so because these sensors did not contain Bluetooth or Wi-fi so the activities could not be detected in run time. The activities had to be performed and then the sensors had to be plugged in and then the data had to be extracted and then the Machine Learning Algorithm had to be used.
+
+The project is Python based and Jupyter Notebook has been used. The libraries used were Pandas and Keras. Deep Neural Network (DNN) gave the highest accuracy which was 93%. Dense layers were used, which were total 5 (increasing it decreased the accuracy), 1 input layer with input dimension 549 (number of columns of the training data). The activation function was SoftMax. The next 3 layers were hidden and used the activation function Rectified Linear Unit (relu) each of which had 600 units. The output layer dimension was 6 and activation function was sigmoid (data was changed to categorical initially).
+
+While fitting the model batch size 200 was used (increasing it increased the accuracy) and epochs used were 6 (increasing it increased the accuracy).
+
+***
+
 # CREDITS
 
-We would like to thank our supervisor Ms. Nida Sadaf Khan for the patient guidance, encouragement and advice she has provide. Without her help and constant guidance, we would not have been able to complete our project. Who identified the problems in our project and gave us the solutions to those problems as well and helped us in all our queries very promptly. 
+We would like to thank our supervisor Ms. Nida Saddaf Khan for the patient guidance, encouragement and advice she has provide. Without her help and constant guidance, we would not have been able to complete our project. Who identified the problems in our project and gave us the solutions to those problems as well and helped us in all our queries very promptly. 
 
 ***
 
